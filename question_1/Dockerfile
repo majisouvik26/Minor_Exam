@@ -7,4 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY question_1/ .
 
-CMD ["python", "train.py"]
+CMD ["sh", "-c", "python train.py && python evaluate.py"]
