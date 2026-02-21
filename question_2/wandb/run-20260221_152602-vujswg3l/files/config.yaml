@@ -1,0 +1,85 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            bwuztgurvpqva1rhyzvdceu7kmudtrrp:
+                codePath: question_2/train_eval.py
+                codePathLocal: train_eval.py
+                cpu_count: 16
+                cpu_count_logical: 32
+                cudaVersion: "12.4"
+                disk:
+                    /:
+                        total: "1888559353856"
+                        used: "36262408192"
+                email: b22cs089@iitj.ac.in
+                executable: /data/b22cs089/Minor_Exam/.venv/bin/python
+                git:
+                    commit: 3e77d83fa1196487e5d4641ef142c5299ba30a92
+                    remote: https://github.com/majisouvik26/Minor_Exam.git
+                gpu: NVIDIA RTX A6000
+                gpu_count: 3
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-cdd42cc2-265e-40dd-39b3-2e8bbc1faeed
+                    - architecture: Ampere
+                      cudaCores: 8192
+                      memoryTotal: "25757220864"
+                      name: NVIDIA RTX A5000
+                      uuid: GPU-047ee957-ad70-08a2-5d13-3acb90b24445
+                    - architecture: Ampere
+                      cudaCores: 8192
+                      memoryTotal: "25757220864"
+                      name: NVIDIA RTX A5000
+                      uuid: GPU-c2a5df4f-27a0-ff19-bd2e-328fe1dca689
+                host: iit-jodhpur
+                memory:
+                    total: "270075494400"
+                os: Linux-6.8.0-90-generic-x86_64-with-glibc2.35
+                program: /data/b22cs089/Minor_Exam/question_2/train_eval.py
+                python: CPython 3.11.11
+                root: /data/b22cs089/Minor_Exam/question_2
+                startedAt: "2026-02-21T09:56:02.555981Z"
+                writerId: bwuztgurvpqva1rhyzvdceu7kmudtrrp
+        m: []
+        python_version: 3.11.11
+        t:
+            "1":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 51
+                - 53
+            "2":
+                - 1
+                - 5
+                - 41
+                - 49
+                - 51
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.11
+            "5": 0.25.0
+            "8":
+                - 2
+            "12": 0.25.0
+            "13": linux-x86_64
+batch_size:
+    value: 32
+epochs:
+    value: 10
+hf_repo:
+    value: stl10-resnet18
+lr:
+    value: 0.001
+skip_train:
+    value: false
+wandb_project:
+    value: stl10-minor-exam

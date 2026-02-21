@@ -201,6 +201,9 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# project
+question_2/classwise_acc.py
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

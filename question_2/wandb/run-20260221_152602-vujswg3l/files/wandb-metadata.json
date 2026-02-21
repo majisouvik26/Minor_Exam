@@ -1,0 +1,54 @@
+{
+  "os":  "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+  "python":  "CPython 3.11.11",
+  "startedAt":  "2026-02-21T09:56:02.555981Z",
+  "program":  "/data/b22cs089/Minor_Exam/question_2/train_eval.py",
+  "codePath":  "question_2/train_eval.py",
+  "codePathLocal":  "train_eval.py",
+  "git":  {
+    "remote":  "https://github.com/majisouvik26/Minor_Exam.git",
+    "commit":  "3e77d83fa1196487e5d4641ef142c5299ba30a92"
+  },
+  "email":  "b22cs089@iitj.ac.in",
+  "root":  "/data/b22cs089/Minor_Exam/question_2",
+  "host":  "iit-jodhpur",
+  "executable":  "/data/b22cs089/Minor_Exam/.venv/bin/python",
+  "cpu_count":  16,
+  "cpu_count_logical":  32,
+  "gpu":  "NVIDIA RTX A6000",
+  "gpu_count":  3,
+  "disk":  {
+    "/":  {
+      "total":  "1888559353856",
+      "used":  "36262408192"
+    }
+  },
+  "memory":  {
+    "total":  "270075494400"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA RTX A6000",
+      "memoryTotal":  "51527024640",
+      "cudaCores":  10752,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-cdd42cc2-265e-40dd-39b3-2e8bbc1faeed"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-047ee957-ad70-08a2-5d13-3acb90b24445"
+    },
+    {
+      "name":  "NVIDIA RTX A5000",
+      "memoryTotal":  "25757220864",
+      "cudaCores":  8192,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-c2a5df4f-27a0-ff19-bd2e-328fe1dca689"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "bwuztgurvpqva1rhyzvdceu7kmudtrrp"
+}
