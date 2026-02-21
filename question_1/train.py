@@ -13,7 +13,7 @@ DATA_DIR = "/data/b22cs089/Minor_Exam/question_1/data_b22cs089/data/train"
 BATCH_SIZE = 32
 NUM_CLASSES = 10
 EPOCHS = 3
-LR = 1e-3
+LR = 1e-5
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # ==========================

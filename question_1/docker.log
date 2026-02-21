@@ -1,0 +1,8 @@
+docker build -f question_1/Dockerfile -t question1:latest .
+
+docker run --rm question1:latest python train.py
+docker run --rm question1:latest python evaluate.py
+
+# data_mounted
+
+docker run --rm -v /data/b22cs089/Minor_Exam/question_1/data_b22cs089:/app/data_b22cs089 question1:latest

@@ -1,0 +1,276 @@
+nohup: ignoring input
+Generating train split:   0%|          | 0/5000 [00:00<?, ? examples/s]Generating train split: 100%|██████████| 5000/5000 [00:00<00:00, 20072.88 examples/s]Generating train split: 100%|██████████| 5000/5000 [00:00<00:00, 19568.22 examples/s]
+Generating validation split:   0%|          | 0/500 [00:00<?, ? examples/s]Generating validation split: 100%|██████████| 500/500 [00:00<00:00, 35852.43 examples/s]
+Generating test split:   0%|          | 0/1000 [00:00<?, ? examples/s]Generating test split: 100%|██████████| 1000/1000 [00:00<00:00, 38390.04 examples/s]
+wandb: [wandb.login()] Loaded credentials for https://api.wandb.ai from /data/b22cs089/.netrc.
+wandb: Currently logged in as: b22cs089 (b22cs089-iit-rajasthan) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: setting up run zvy6xm2j
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /data/b22cs089/Minor_Exam/question_2/wandb/run-20260221_154057-zvy6xm2j
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run polar-mountain-3
+wandb: ⭐️ View project at https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam
+wandb: 🚀 View run at https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam/runs/zvy6xm2j
+wandb: updating run metadata
+wandb: uploading config.yaml; uploading wandb-summary.json
+wandb: 
+wandb: Run history:
+wandb:      epoch ▁▂▃▃▄▅▆▆▇█
+wandb:  train_acc ▁▄▅▆▆▇▇▇██
+wandb: train_loss █▅▄▄▃▂▂▂▁▁
+wandb:    val_acc ▁▅▆▇▇▅█▇▇▅
+wandb:   val_loss █▃▂▂▂▅▁▂▂▄
+wandb: 
+wandb: Run summary:
+wandb:      epoch 9
+wandb:  train_acc 0.837
+wandb: train_loss 0.46612
+wandb:    val_acc 0.7
+wandb:   val_loss 0.9829
+wandb: 
+wandb: 🚀 View run polar-mountain-3 at: https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam/runs/zvy6xm2j
+wandb: ⭐️ View project at: https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260221_154057-zvy6xm2j/logs
+wandb: setting up run 0hh56h8k
+wandb: Tracking run with wandb version 0.25.0
+wandb: Run data is saved locally in /data/b22cs089/Minor_Exam/question_2/wandb/run-20260221_154140-0hh56h8k
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run eval_and_plots
+wandb: ⭐️ View project at https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam
+wandb: 🚀 View run at https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam/runs/0hh56h8k
+Processing Files (0 / 0)      : |          |  0.00B /  0.00B            
+New Data Upload               : |          |  0.00B /  0.00B            [A
+
+  best_stl10_resnet18.pt      :   1%|▏         |  562kB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   1%|▏         |  562kB / 44.8MB            [A[AProcessing Files (0 / 1)      :   1%|▏         |  562kB / 44.8MB,  312kB/s  
+New Data Upload               :   1%|▏         |  562kB / 44.8MB,  312kB/s  [A
+
+  best_stl10_resnet18.pt      :   1%|▏         |  562kB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   1%|▏         |  562kB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   1%|▏         |  562kB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   1%|▏         |  562kB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   3%|▎         | 1.12MB / 44.8MB            [A[AProcessing Files (0 / 1)      :   3%|▎         | 1.12MB / 44.8MB,  402kB/s  
+New Data Upload               :   3%|▎         | 1.12MB / 44.8MB,  402kB/s  [A
+
+  best_stl10_resnet18.pt      :   3%|▎         | 1.12MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   3%|▎         | 1.12MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   3%|▎         | 1.12MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   3%|▎         | 1.12MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   4%|▍         | 1.69MB / 44.8MB            [A[AProcessing Files (0 / 1)      :   4%|▍         | 1.69MB / 44.8MB,  444kB/s  
+New Data Upload               :   4%|▍         | 1.69MB / 44.8MB,  444kB/s  [A
+
+  best_stl10_resnet18.pt      :   4%|▍         | 1.69MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   4%|▍         | 1.69MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   4%|▍         | 1.69MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   5%|▌         | 2.25MB / 44.8MB            [A[AProcessing Files (0 / 1)      :   5%|▌         | 2.25MB / 44.8MB,  489kB/s  
+New Data Upload               :   5%|▌         | 2.25MB / 44.8MB,  489kB/s  [A
+
+  best_stl10_resnet18.pt      :   5%|▌         | 2.25MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   5%|▌         | 2.25MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   5%|▌         | 2.25MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   5%|▌         | 2.25MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   6%|▋         | 2.81MB / 44.8MB            [A[AProcessing Files (0 / 1)      :   6%|▋         | 2.81MB / 44.8MB,  502kB/s  
+New Data Upload               :   6%|▋         | 2.81MB / 44.8MB,  502kB/s  [A
+
+  best_stl10_resnet18.pt      :   6%|▋         | 2.81MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   8%|▊         | 3.37MB / 44.8MB            [A[AProcessing Files (0 / 1)      :   8%|▊         | 3.37MB / 44.8MB,  562kB/s  
+New Data Upload               :   8%|▊         | 3.37MB / 44.8MB,  562kB/s  [A
+
+  best_stl10_resnet18.pt      :   8%|▊         | 3.37MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   8%|▊         | 3.37MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   8%|▊         | 3.37MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :   9%|▉         | 3.94MB / 44.8MB            [A[AProcessing Files (0 / 1)      :   9%|▉         | 3.94MB / 44.8MB,  579kB/s  
+New Data Upload               :   9%|▉         | 3.94MB / 44.8MB,  579kB/s  [A
+
+  best_stl10_resnet18.pt      :   9%|▉         | 3.94MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  10%|█         | 4.50MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  10%|█         | 4.50MB / 44.8MB,  625kB/s  
+New Data Upload               :  10%|█         | 4.50MB / 44.8MB,  625kB/s  [A
+
+  best_stl10_resnet18.pt      :  10%|█         | 4.50MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  10%|█         | 4.50MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  11%|█▏        | 5.06MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  11%|█▏        | 5.06MB / 44.8MB,  649kB/s  
+New Data Upload               :  11%|█▏        | 5.06MB / 44.8MB,  649kB/s  [A
+
+  best_stl10_resnet18.pt      :  11%|█▏        | 5.06MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  13%|█▎        | 5.62MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  13%|█▎        | 5.62MB / 44.8MB,  686kB/s  
+New Data Upload               :  13%|█▎        | 5.62MB / 44.8MB,  686kB/s  [A
+
+  best_stl10_resnet18.pt      :  15%|█▌        | 6.75MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  15%|█▌        | 6.75MB / 44.8MB,  804kB/s  
+New Data Upload               :  15%|█▌        | 6.75MB / 44.8MB,  804kB/s  [A
+
+  best_stl10_resnet18.pt      :  15%|█▌        | 6.75MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  15%|█▌        | 6.75MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  16%|█▋        | 7.31MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  16%|█▋        | 7.31MB / 44.8MB,  812kB/s  
+New Data Upload               :  16%|█▋        | 7.31MB / 44.8MB,  812kB/s  [A
+
+  best_stl10_resnet18.pt      :  16%|█▋        | 7.31MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  18%|█▊        | 7.87MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  18%|█▊        | 7.87MB / 44.8MB,  838kB/s  
+New Data Upload               :  18%|█▊        | 7.87MB / 44.8MB,  838kB/s  [A
+
+  best_stl10_resnet18.pt      :  18%|█▊        | 7.87MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  20%|██        | 9.00MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  20%|██        | 9.00MB / 44.8MB,  918kB/s  
+New Data Upload               :  20%|██        | 9.00MB / 44.8MB,  918kB/s  [A
+
+  best_stl10_resnet18.pt      :  20%|██        | 9.00MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  20%|██        | 9.00MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  23%|██▎       | 10.1MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  23%|██▎       | 10.1MB / 44.8MB,  993kB/s  
+New Data Upload               :  23%|██▎       | 10.1MB / 44.8MB,  993kB/s  [A
+
+  best_stl10_resnet18.pt      :  25%|██▌       | 11.2MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  25%|██▌       | 11.2MB / 44.8MB, 1.10MB/s  
+New Data Upload               :  25%|██▌       | 11.2MB / 44.8MB, 1.10MB/s  [A
+
+  best_stl10_resnet18.pt      :  25%|██▌       | 11.2MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  28%|██▊       | 12.4MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  28%|██▊       | 12.4MB / 44.8MB, 1.21MB/s  
+New Data Upload               :  28%|██▊       | 12.4MB / 44.8MB, 1.21MB/s  [A
+
+  best_stl10_resnet18.pt      :  28%|██▊       | 12.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  28%|██▊       | 12.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  30%|███       | 13.5MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  30%|███       | 13.5MB / 44.8MB, 1.32MB/s  
+New Data Upload               :  30%|███       | 13.5MB / 44.8MB, 1.32MB/s  [A
+
+  best_stl10_resnet18.pt      :  33%|███▎      | 14.6MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  33%|███▎      | 14.6MB / 44.8MB, 1.43MB/s  
+New Data Upload               :  33%|███▎      | 14.6MB / 44.8MB, 1.43MB/s  [A
+
+  best_stl10_resnet18.pt      :  33%|███▎      | 14.6MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  36%|███▋      | 16.3MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  36%|███▋      | 16.3MB / 44.8MB, 1.54MB/s  
+New Data Upload               :  36%|███▋      | 16.3MB / 44.8MB, 1.54MB/s  [A
+
+  best_stl10_resnet18.pt      :  36%|███▋      | 16.3MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  39%|███▉      | 17.4MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  39%|███▉      | 17.4MB / 44.8MB, 1.65MB/s  
+New Data Upload               :  39%|███▉      | 17.4MB / 44.8MB, 1.65MB/s  [A
+
+  best_stl10_resnet18.pt      :  39%|███▉      | 17.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  39%|███▉      | 17.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  43%|████▎     | 19.1MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  43%|████▎     | 19.1MB / 44.8MB, 1.76MB/s  
+New Data Upload               :  43%|████▎     | 19.1MB / 44.8MB, 1.76MB/s  [A
+
+  best_stl10_resnet18.pt      :  46%|████▋     | 20.8MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  46%|████▋     | 20.8MB / 44.8MB, 1.93MB/s  
+New Data Upload               :  46%|████▋     | 20.8MB / 44.8MB, 1.93MB/s  [A
+
+  best_stl10_resnet18.pt      :  46%|████▋     | 20.8MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  50%|█████     | 22.5MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  50%|█████     | 22.5MB / 44.8MB, 2.10MB/s  
+New Data Upload               :  50%|█████     | 22.5MB / 44.8MB, 2.10MB/s  [A
+
+  best_stl10_resnet18.pt      :  50%|█████     | 22.5MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  53%|█████▎    | 23.6MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  53%|█████▎    | 23.6MB / 44.8MB, 2.15MB/s  
+New Data Upload               :  53%|█████▎    | 23.6MB / 44.8MB, 2.15MB/s  [A
+
+  best_stl10_resnet18.pt      :  53%|█████▎    | 23.6MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  56%|█████▋    | 25.3MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  56%|█████▋    | 25.3MB / 44.8MB, 2.32MB/s  
+New Data Upload               :  56%|█████▋    | 25.3MB / 44.8MB, 2.32MB/s  [A
+
+  best_stl10_resnet18.pt      :  60%|██████    | 27.0MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  60%|██████    | 27.0MB / 44.8MB, 2.43MB/s  
+New Data Upload               :  60%|██████    | 27.0MB / 44.8MB, 2.43MB/s  [A
+
+  best_stl10_resnet18.pt      :  64%|██████▍   | 28.7MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  64%|██████▍   | 28.7MB / 44.8MB, 2.59MB/s  
+New Data Upload               :  64%|██████▍   | 28.7MB / 44.8MB, 2.59MB/s  [A
+
+  best_stl10_resnet18.pt      :  67%|██████▋   | 29.8MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  67%|██████▋   | 29.8MB / 44.8MB, 2.70MB/s  
+New Data Upload               :  67%|██████▋   | 29.8MB / 44.8MB, 2.70MB/s  [A
+
+  best_stl10_resnet18.pt      :  67%|██████▋   | 29.8MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  70%|███████   | 31.5MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  70%|███████   | 31.5MB / 44.8MB, 2.87MB/s  
+New Data Upload               :  70%|███████   | 31.5MB / 44.8MB, 2.87MB/s  [A
+
+  best_stl10_resnet18.pt      :  74%|███████▍  | 33.2MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  74%|███████▍  | 33.2MB / 44.8MB, 2.98MB/s  
+New Data Upload               :  74%|███████▍  | 33.2MB / 44.8MB, 2.98MB/s  [A
+
+  best_stl10_resnet18.pt      :  77%|███████▋  | 34.3MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  77%|███████▋  | 34.3MB / 44.8MB, 3.09MB/s  
+New Data Upload               :  77%|███████▋  | 34.3MB / 44.8MB, 3.09MB/s  [A
+
+  best_stl10_resnet18.pt      :  80%|████████  | 36.0MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  80%|████████  | 36.0MB / 44.8MB, 3.20MB/s  
+New Data Upload               :  80%|████████  | 36.0MB / 44.8MB, 3.20MB/s  [A
+
+  best_stl10_resnet18.pt      :  84%|████████▍ | 37.7MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  84%|████████▍ | 37.7MB / 44.8MB, 3.36MB/s  
+New Data Upload               :  84%|████████▍ | 37.7MB / 44.8MB, 3.36MB/s  [A
+
+  best_stl10_resnet18.pt      :  88%|████████▊ | 39.4MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  88%|████████▊ | 39.4MB / 44.8MB, 3.53MB/s  
+New Data Upload               :  88%|████████▊ | 39.4MB / 44.8MB, 3.53MB/s  [A
+
+  best_stl10_resnet18.pt      :  88%|████████▊ | 39.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  94%|█████████▍| 42.2MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  94%|█████████▍| 42.2MB / 44.8MB, 3.75MB/s  
+New Data Upload               :  94%|█████████▍| 42.2MB / 44.8MB, 3.75MB/s  [A
+
+  best_stl10_resnet18.pt      :  98%|█████████▊| 43.9MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  98%|█████████▊| 43.9MB / 44.8MB, 3.91MB/s  
+New Data Upload               :  98%|█████████▊| 43.9MB / 44.8MB, 3.91MB/s  [A
+
+  best_stl10_resnet18.pt      :  99%|█████████▉| 44.4MB / 44.8MB            [A[AProcessing Files (0 / 1)      :  99%|█████████▉| 44.4MB / 44.8MB, 3.92MB/s  
+New Data Upload               :  99%|█████████▉| 44.4MB / 44.8MB, 3.92MB/s  [A
+
+  best_stl10_resnet18.pt      :  99%|█████████▉| 44.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  99%|█████████▉| 44.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      :  99%|█████████▉| 44.4MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      : 100%|██████████| 44.8MB / 44.8MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 44.8MB / 44.8MB, 3.90MB/s  
+New Data Upload               : 100%|██████████| 44.8MB / 44.8MB, 3.90MB/s  [A
+
+  best_stl10_resnet18.pt      : 100%|██████████| 44.8MB / 44.8MB            [A[A
+
+  best_stl10_resnet18.pt      : 100%|██████████| 44.8MB / 44.8MB            [A[AProcessing Files (1 / 1)      : 100%|██████████| 44.8MB / 44.8MB, 3.81MB/s  
+New Data Upload               : 100%|██████████| 44.8MB / 44.8MB, 3.81MB/s  
+  best_stl10_resnet18.pt      : 100%|██████████| 44.8MB / 44.8MB            
+wandb: uploading artifact run-0hh56h8k-test_samples_20; uploading media/images/class_wise_accuracy_2_313904381dee297cbe94.png; uploading media/table/test_samples_20_3_7a687abcd678d7ec1e7d.table.json; updating run metadata
+wandb: uploading artifact run-0hh56h8k-test_samples_20
+wandb: uploading output.log; uploading wandb-summary.json; uploading config.yaml
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading config.yaml
+wandb: uploading history steps 0-4, summary, console lines 0-2
+wandb: uploading data
+wandb: 
+wandb: Run history:
+wandb: loaded_model_test_accuracy ▁
+wandb:              test_accuracy ▁
+wandb: 
+wandb: Run summary:
+wandb: loaded_model_test_accuracy 0.812
+wandb:              test_accuracy 0.812
+wandb: 
+wandb: 🚀 View run eval_and_plots at: https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam/runs/0hh56h8k
+wandb: ⭐️ View project at: https://wandb.ai/b22cs089-iit-rajasthan/stl10-minor-exam
+wandb: Synced 5 W&B file(s), 3 media file(s), 22 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20260221_154140-0hh56h8k/logs
